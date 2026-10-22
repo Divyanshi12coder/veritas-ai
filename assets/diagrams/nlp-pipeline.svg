@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Veritrace NLP and ML pipeline">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6B1D2A"/></marker>
+    <style>
+      .t{font-family:Georgia,serif;font-size:17px;font-weight:700;fill:#4A1220}
+      .s{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;fill:#2A2326}
+      .k{font-family:'Courier New',monospace;font-size:11px;font-weight:700;fill:#9E2A3A;letter-spacing:2px}
+      .n{font-family:'Courier New',monospace;font-size:12px;font-weight:700;fill:#F6EFE3}
+      .box{fill:#FBF8F3;stroke:#6B1D2A;stroke-width:1.5}
+      .ln{stroke:#6B1D2A;stroke-width:1.6;fill:none;marker-end:url(#ar)}
+    </style>
+  </defs>
+  <rect width="1200" height="320" fill="#F6EFE3"/>
+  <text x="40" y="40" class="k">NLP &amp; MACHINE LEARNING PIPELINE</text>
+  <g>
+    <rect x="30" y="70" width="170" height="190" rx="6" class="box"/><circle cx="52" cy="92" r="11" fill="#6B1D2A"/><text x="52" y="96" text-anchor="middle" class="n">1</text>
+    <text x="70" y="97" class="t">Ingest</text>
+    <text x="46" y="128" class="s">Paste text or URL</text><text x="46" y="148" class="s">Safe fetch (SSRF guard)</text><text x="46" y="168" class="s">Title · body · author</text><text x="46" y="188" class="s">Date · domain</text>
+  </g>
+  <g>
+    <rect x="235" y="70" width="170" height="190" rx="6" class="box"/><circle cx="257" cy="92" r="11" fill="#6B1D2A"/><text x="257" y="96" text-anchor="middle" class="n">2</text>
+    <text x="275" y="97" class="t">Normalise</text>
+    <text x="251" y="128" class="s">HTML / unicode clean</text><text x="251" y="148" class="s">Dateline scrubbing</text><text x="251" y="168" class="s">Tokens · sentences</text><text x="251" y="188" class="s">Stop-words · stemming</text>
+  </g>
+  <g>
+    <rect x="440" y="70" width="170" height="190" rx="6" class="box"/><circle cx="462" cy="92" r="11" fill="#6B1D2A"/><text x="462" y="96" text-anchor="middle" class="n">3</text>
+    <text x="480" y="97" class="t">Features</text>
+    <text x="456" y="128" class="s">TF-IDF word 1–2-grams</text><text x="456" y="148" class="s">33 stylometric signals</text><text x="456" y="168" class="s">Sentiment · readability</text><text x="456" y="188" class="s">Suspicious phrases · NER</text>
+  </g>
+  <g>
+    <rect x="645" y="70" width="170" height="190" rx="6" class="box"/><circle cx="667" cy="92" r="11" fill="#6B1D2A"/><text x="667" y="96" text-anchor="middle" class="n">4</text>
+    <text x="685" y="97" class="t">Classify</text>
+    <text x="661" y="128" class="s">Logistic Regression</text><text x="661" y="148" class="s">Linear SVM (calibrated)</text><text x="661" y="168" class="s">Random Forest · GBM</text><text x="661" y="188" class="s">Optional transformer</text>
+  </g>
+  <g>
+    <rect x="850" y="70" width="150" height="190" rx="6" class="box"/><circle cx="872" cy="92" r="11" fill="#6B1D2A"/><text x="872" y="96" text-anchor="middle" class="n">5</text>
+    <text x="890" y="97" class="t">Explain</text>
+    <text x="866" y="128" class="s">Term contributions</text><text x="866" y="148" class="s">Feature occlusion</text><text x="866" y="168" class="s">Highlighted phrases</text><text x="866" y="188" class="s">Keywords · entities</text>
+  </g>
+  <g>
+    <rect x="1035" y="70" width="140" height="190" rx="6" class="box"/><circle cx="1057" cy="92" r="11" fill="#6B1D2A"/><text x="1057" y="96" text-anchor="middle" class="n">6</text>
+    <text x="1075" y="97" class="t">Score</text>
+    <text x="1051" y="128" class="s">Six-factor</text><text x="1051" y="148" class="s">credibility score</text><text x="1051" y="168" class="s">with documented</text><text x="1051" y="188" class="s">weights</text>
+  </g>
+  <path d="M200 165 H231" class="ln"/><path d="M405 165 H436" class="ln"/><path d="M610 165 H641" class="ln"/><path d="M815 165 H846" class="ln"/><path d="M1000 165 H1031" class="ln"/>
+  <text x="40" y="296" class="s">Class 1 = misinformation (positive class). Every stage is deterministic and runs locally; no external service is required.</text>
+</svg>

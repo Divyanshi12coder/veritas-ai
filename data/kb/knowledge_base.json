@@ -1,0 +1,433 @@
+{
+  "_meta": {
+    "description": "Controlled knowledge base for Veritrace's retrieval layer. Each entry is a short, hand-written summary of a well-established finding, attributed to the type of institution that publishes the underlying guidance. Entries are paraphrased summaries written for this project, not verbatim quotations, and they link to the organisation's website rather than a specific page. Always verify against the primary source.",
+    "curation": "Entries cover frequently circulated health, science, history and civic claims. The knowledge base is deliberately small and auditable; it cannot verify claims outside its scope, in which case the system reports 'unverified'.",
+    "extend": "Add entries to this file and restart the backend: the vector index is rebuilt at startup."
+  },
+  "entries": [
+    {
+      "id": "vaccines-autism",
+      "title": "Vaccines and autism",
+      "topic": "health",
+      "statement": "Large studies involving millions of children have found no causal link between vaccines and autism, and the original 1998 study suggesting a link was retracted.",
+      "common_false_claims": [
+        "Vaccines cause autism in children.",
+        "The MMR vaccine causes autism and doctors are hiding it.",
+        "Autism rates rise because of childhood vaccination schedules."
+      ],
+      "source_name": "Centers for Disease Control and Prevention (CDC)",
+      "source_url": "https://www.cdc.gov/"
+    },
+    {
+      "id": "5g-covid",
+      "title": "5G networks and COVID-19",
+      "topic": "health",
+      "statement": "Viruses cannot travel on radio waves or mobile networks, and COVID-19 spreads through respiratory droplets and aerosols, including in countries without 5G.",
+      "common_false_claims": [
+        "5G towers spread the coronavirus.",
+        "COVID-19 is caused by 5G radiation.",
+        "5G mobile networks weaken the immune system and create the virus."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "covid-vaccine-dna",
+      "title": "mRNA vaccines and human DNA",
+      "topic": "health",
+      "statement": "mRNA vaccines do not enter the cell nucleus and do not alter a person's DNA; the mRNA is broken down by the body shortly after it delivers its instructions.",
+      "common_false_claims": [
+        "COVID-19 vaccines change your DNA.",
+        "mRNA vaccines permanently alter human genes.",
+        "The vaccine rewrites your genetic code."
+      ],
+      "source_name": "Centers for Disease Control and Prevention (CDC)",
+      "source_url": "https://www.cdc.gov/"
+    },
+    {
+      "id": "vaccine-microchips",
+      "title": "Microchips in vaccines",
+      "topic": "health",
+      "statement": "Vaccines do not contain microchips or tracking devices; the ingredients of authorised vaccines are publicly listed and the needles used cannot inject such devices.",
+      "common_false_claims": [
+        "Vaccines contain microchips used to track people.",
+        "Bill Gates put tracking microchips in COVID-19 vaccines.",
+        "The vaccine injects a tracking device into your body."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "hydroxychloroquine-covid",
+      "title": "Hydroxychloroquine for COVID-19",
+      "topic": "health",
+      "statement": "Large randomised trials, including the RECOVERY trial and WHO's Solidarity trial, found that hydroxychloroquine does not reduce COVID-19 mortality or hospitalisation.",
+      "common_false_claims": [
+        "Hydroxychloroquine is a proven cure for COVID-19.",
+        "Hydroxychloroquine prevents coronavirus infection and the media is hiding it.",
+        "Doctors are suppressing the hydroxychloroquine cure for COVID."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "ivermectin-covid",
+      "title": "Ivermectin for COVID-19",
+      "topic": "health",
+      "statement": "Randomised controlled trials such as ACTIV-6 found no meaningful benefit of ivermectin in treating COVID-19, and health agencies do not recommend it for that purpose.",
+      "common_false_claims": [
+        "Ivermectin is a miracle cure for COVID-19.",
+        "Ivermectin cures coronavirus and regulators are suppressing it.",
+        "Ivermectin works better than the COVID vaccine."
+      ],
+      "source_name": "National Institutes of Health (NIH)",
+      "source_url": "https://www.nih.gov/"
+    },
+    {
+      "id": "bleach-disinfectant-injection",
+      "title": "Ingesting or injecting disinfectants",
+      "topic": "health",
+      "statement": "Drinking or injecting bleach or other disinfectants is dangerous and can cause serious harm or death; it does not cure or prevent COVID-19.",
+      "common_false_claims": [
+        "Drinking bleach cures COVID-19.",
+        "Injecting disinfectant kills the coronavirus inside the body.",
+        "Miracle mineral solution cures disease."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "covid-pandemic-declaration",
+      "title": "WHO COVID-19 pandemic declaration",
+      "topic": "health",
+      "statement": "The World Health Organization characterised COVID-19 as a pandemic on 11 March 2020.",
+      "common_false_claims": [
+        "The WHO never declared COVID-19 a pandemic.",
+        "COVID-19 was declared a pandemic in 2018 before the outbreak began."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "flu-vaccine-flu",
+      "title": "Flu vaccine cannot cause influenza",
+      "topic": "health",
+      "statement": "Flu shots are made from inactivated virus or single proteins and cannot give you influenza; mild side effects such as a sore arm or low fever can occur.",
+      "common_false_claims": [
+        "The flu vaccine gives you the flu.",
+        "Getting a flu shot infects you with influenza."
+      ],
+      "source_name": "Centers for Disease Control and Prevention (CDC)",
+      "source_url": "https://www.cdc.gov/"
+    },
+    {
+      "id": "mmr-effectiveness",
+      "title": "Effectiveness of the measles vaccine",
+      "topic": "health",
+      "statement": "Two doses of the measles, mumps and rubella (MMR) vaccine are about 97 percent effective at preventing measles.",
+      "common_false_claims": [
+        "The measles vaccine does not work.",
+        "Measles outbreaks happen because the MMR vaccine is ineffective."
+      ],
+      "source_name": "Centers for Disease Control and Prevention (CDC)",
+      "source_url": "https://www.cdc.gov/"
+    },
+    {
+      "id": "hiv-aids",
+      "title": "HIV causes AIDS",
+      "topic": "health",
+      "statement": "HIV is the cause of AIDS; the scientific evidence for this is overwhelming, and antiretroviral treatment allows people with HIV to live long, healthy lives.",
+      "common_false_claims": [
+        "HIV does not cause AIDS.",
+        "AIDS is caused by medication, not a virus.",
+        "HIV is a hoax invented by pharmaceutical companies."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "smoking-cancer",
+      "title": "Smoking and cancer",
+      "topic": "health",
+      "statement": "Tobacco smoking causes lung cancer and many other cancers; it is the leading preventable cause of cancer deaths.",
+      "common_false_claims": [
+        "Smoking does not cause cancer.",
+        "The link between smoking and lung cancer is a myth.",
+        "Cigarettes are harmless."
+      ],
+      "source_name": "National Cancer Institute (NIH)",
+      "source_url": "https://www.cancer.gov/"
+    },
+    {
+      "id": "antibiotics-viruses",
+      "title": "Antibiotics and viral infections",
+      "topic": "health",
+      "statement": "Antibiotics kill bacteria and do not work against viruses such as colds, flu or COVID-19; unnecessary use contributes to antibiotic resistance.",
+      "common_false_claims": [
+        "Antibiotics cure the flu and colds.",
+        "Antibiotics are an effective treatment for COVID-19."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "miracle-cancer-cures",
+      "title": "Miracle cures for cancer",
+      "topic": "health",
+      "statement": "No single food, supplement or home remedy has been shown to cure cancer; evidence-based treatment such as surgery, radiotherapy and drug therapy is determined by clinical trials.",
+      "common_false_claims": [
+        "A simple home remedy cures cancer and doctors are hiding it.",
+        "Baking soda cures cancer.",
+        "Big pharma suppresses a natural miracle cure for cancer."
+      ],
+      "source_name": "National Cancer Institute (NIH)",
+      "source_url": "https://www.cancer.gov/"
+    },
+    {
+      "id": "sunscreen-cancer",
+      "title": "Sunscreen and skin cancer",
+      "topic": "health",
+      "statement": "Regular sunscreen use reduces the risk of skin cancer; there is no good evidence that sunscreen itself causes cancer.",
+      "common_false_claims": [
+        "Sunscreen causes cancer.",
+        "Sunscreen is more dangerous than sun exposure."
+      ],
+      "source_name": "National Cancer Institute (NIH)",
+      "source_url": "https://www.cancer.gov/"
+    },
+    {
+      "id": "fluoride-water",
+      "title": "Community water fluoridation",
+      "topic": "health",
+      "statement": "Community water fluoridation at recommended levels is considered a safe and effective way to reduce tooth decay by major public health bodies.",
+      "common_false_claims": [
+        "Fluoride in drinking water is a poison used to control the population.",
+        "Water fluoridation at standard levels is dangerous to everyone."
+      ],
+      "source_name": "Centers for Disease Control and Prevention (CDC)",
+      "source_url": "https://www.cdc.gov/"
+    },
+    {
+      "id": "gmo-safety",
+      "title": "Safety of approved GM foods",
+      "topic": "science",
+      "statement": "A 2016 review by the US National Academies of Sciences found no evidence that approved genetically engineered foods are less safe to eat than their conventional counterparts.",
+      "common_false_claims": [
+        "GMO foods cause cancer.",
+        "Genetically modified foods are poisonous and unsafe to eat."
+      ],
+      "source_name": "National Academies of Sciences, Engineering, and Medicine",
+      "source_url": "https://www.nationalacademies.org/"
+    },
+    {
+      "id": "cellphones-cancer",
+      "title": "Mobile phones and cancer",
+      "topic": "health",
+      "statement": "Large studies have not established that mobile phone use causes cancer; the International Agency for Research on Cancer classifies radiofrequency fields as 'possibly carcinogenic' (Group 2B), a category reflecting limited evidence.",
+      "common_false_claims": [
+        "Mobile phones definitely cause brain cancer.",
+        "Cell phone radiation is proven to cause cancer."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "climate-human-cause",
+      "title": "Human influence on climate",
+      "topic": "climate",
+      "statement": "It is unequivocal that human activities, principally greenhouse-gas emissions from burning fossil fuels, have warmed the atmosphere, ocean and land, according to the IPCC.",
+      "common_false_claims": [
+        "Climate change is a hoax.",
+        "Global warming is not caused by humans.",
+        "Climate change is entirely natural and humans play no role."
+      ],
+      "source_name": "Intergovernmental Panel on Climate Change (IPCC)",
+      "source_url": "https://www.ipcc.ch/"
+    },
+    {
+      "id": "global-temperature",
+      "title": "Global surface temperature rise",
+      "topic": "climate",
+      "statement": "Global surface temperature in 2011-2020 was about 1.1 degrees Celsius higher than in 1850-1900, according to the IPCC's Sixth Assessment Report.",
+      "common_false_claims": [
+        "The planet has not warmed in decades.",
+        "Global temperatures have been falling since the 1990s.",
+        "Global warming stopped and the Earth is cooling."
+      ],
+      "source_name": "Intergovernmental Panel on Climate Change (IPCC)",
+      "source_url": "https://www.ipcc.ch/"
+    },
+    {
+      "id": "co2-levels",
+      "title": "Atmospheric carbon dioxide",
+      "topic": "climate",
+      "statement": "Atmospheric carbon dioxide has risen from about 280 parts per million before the industrial era to over 420 parts per million, as measured at observatories such as Mauna Loa.",
+      "common_false_claims": [
+        "Atmospheric CO2 levels have not increased.",
+        "Carbon dioxide levels are the same as they were two hundred years ago."
+      ],
+      "source_name": "National Oceanic and Atmospheric Administration (NOAA)",
+      "source_url": "https://www.noaa.gov/"
+    },
+    {
+      "id": "sea-level-rise",
+      "title": "Sea level rise",
+      "topic": "climate",
+      "statement": "Global mean sea level has risen over the last century and the rate has accelerated, driven by ocean warming and melting land ice.",
+      "common_false_claims": [
+        "Sea levels are not rising.",
+        "Sea level rise is a myth made up by scientists."
+      ],
+      "source_name": "National Aeronautics and Space Administration (NASA)",
+      "source_url": "https://www.nasa.gov/"
+    },
+    {
+      "id": "contrails-chemtrails",
+      "title": "Contrails and 'chemtrails'",
+      "topic": "science",
+      "statement": "Contrails are condensation trails formed when hot, humid jet exhaust meets cold air; a survey of atmospheric scientists found no evidence of a secret large-scale spraying programme.",
+      "common_false_claims": [
+        "Chemtrails are a secret government program to spray chemicals over populations.",
+        "Airplanes are spraying poison to control the weather and the population."
+      ],
+      "source_name": "National Aeronautics and Space Administration (NASA)",
+      "source_url": "https://www.nasa.gov/"
+    },
+    {
+      "id": "earth-shape",
+      "title": "Shape of the Earth",
+      "topic": "science",
+      "statement": "The Earth is an oblate spheroid, as established by satellite imagery, circumnavigation, GPS, and observations of ships, shadows and star positions.",
+      "common_false_claims": [
+        "The Earth is flat.",
+        "NASA is lying about the shape of the Earth and it is actually flat."
+      ],
+      "source_name": "National Aeronautics and Space Administration (NASA)",
+      "source_url": "https://www.nasa.gov/"
+    },
+    {
+      "id": "moon-landing",
+      "title": "Apollo moon landings",
+      "topic": "history",
+      "statement": "NASA's Apollo 11 mission landed humans on the Moon in July 1969; the landings are supported by returned lunar samples, retroreflectors still used today, and independent tracking by other countries.",
+      "common_false_claims": [
+        "The moon landing was faked in a studio.",
+        "Humans never landed on the Moon and NASA staged the Apollo missions."
+      ],
+      "source_name": "National Aeronautics and Space Administration (NASA)",
+      "source_url": "https://www.nasa.gov/"
+    },
+    {
+      "id": "evolution-consensus",
+      "title": "Scientific consensus on evolution",
+      "topic": "science",
+      "statement": "Evolution by natural selection is supported by evidence from genetics, fossils and direct observation, and is accepted by the overwhelming majority of scientists.",
+      "common_false_claims": [
+        "Evolution is just a theory with no evidence.",
+        "Scientists have disproven evolution."
+      ],
+      "source_name": "National Academies of Sciences, Engineering, and Medicine",
+      "source_url": "https://www.nationalacademies.org/"
+    },
+    {
+      "id": "holocaust",
+      "title": "The Holocaust",
+      "topic": "history",
+      "statement": "The Holocaust was the systematic, state-sponsored murder of about six million Jews by Nazi Germany and its collaborators, documented by Nazi records, physical evidence and survivor and perpetrator testimony.",
+      "common_false_claims": [
+        "The Holocaust never happened.",
+        "The Holocaust was exaggerated and fewer than a million people died.",
+        "Holocaust gas chambers are a hoax."
+      ],
+      "source_name": "United States Holocaust Memorial Museum",
+      "source_url": "https://www.ushmm.org/"
+    },
+    {
+      "id": "sept-11-attacks",
+      "title": "September 11 attacks",
+      "topic": "history",
+      "statement": "The September 11, 2001 attacks were carried out by 19 al-Qaeda hijackers; the NIST investigation concluded the World Trade Center towers collapsed because fires weakened the structural steel after aircraft impact, not controlled demolition.",
+      "common_false_claims": [
+        "9/11 was an inside job carried out by the government.",
+        "The World Trade Center was brought down by controlled demolition.",
+        "Explosives, not planes, destroyed the twin towers."
+      ],
+      "source_name": "National Institute of Standards and Technology (NIST)",
+      "source_url": "https://www.nist.gov/"
+    },
+    {
+      "id": "us-2020-election-fraud",
+      "title": "2020 US presidential election integrity",
+      "topic": "civics",
+      "statement": "State audits, recounts and more than sixty court rulings found no widespread fraud that would have changed the outcome of the 2020 US presidential election; US cybersecurity officials called it the most secure in American history.",
+      "common_false_claims": [
+        "The 2020 US presidential election was stolen through massive voter fraud.",
+        "Millions of fraudulent ballots changed the outcome of the 2020 election.",
+        "Voting machines flipped votes to change the 2020 election result."
+      ],
+      "source_name": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "source_url": "https://www.cisa.gov/"
+    },
+    {
+      "id": "brain-ten-percent",
+      "title": "The '10 percent of the brain' myth",
+      "topic": "science",
+      "statement": "People use virtually all of their brain; imaging shows activity throughout the brain over the course of a day, and damage to almost any region has consequences.",
+      "common_false_claims": [
+        "Humans only use ten percent of their brains.",
+        "We only use 10% of our brain capacity."
+      ],
+      "source_name": "National Institutes of Health (NIH)",
+      "source_url": "https://www.nih.gov/"
+    },
+    {
+      "id": "great-wall-space",
+      "title": "Great Wall visible from space",
+      "topic": "science",
+      "statement": "The Great Wall of China is not visible to the naked eye from the Moon, and is extremely hard to pick out even from low Earth orbit because it is narrow and similar in colour to its surroundings.",
+      "common_false_claims": [
+        "The Great Wall of China is visible from the Moon.",
+        "The Great Wall is the only man-made structure visible from space with the naked eye."
+      ],
+      "source_name": "National Aeronautics and Space Administration (NASA)",
+      "source_url": "https://www.nasa.gov/"
+    },
+    {
+      "id": "vitamin-c-covid",
+      "title": "Vitamin C and COVID-19",
+      "topic": "health",
+      "statement": "No vitamin, mineral or dietary supplement has been shown to prevent or cure COVID-19; vaccination and standard medical care are the evidence-based measures.",
+      "common_false_claims": [
+        "Vitamin C cures COVID-19.",
+        "Taking zinc and vitamin D completely prevents coronavirus infection.",
+        "Garlic and hot water cure the coronavirus."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    },
+    {
+      "id": "vaccine-aluminum",
+      "title": "Aluminium in vaccines",
+      "topic": "health",
+      "statement": "Aluminium salts used as adjuvants in some vaccines are present in tiny amounts, comparable to or lower than the amounts people ingest through food and water, and have a long safety record.",
+      "common_false_claims": [
+        "The aluminum in vaccines poisons children.",
+        "Vaccines are full of toxic heavy metals that damage the brain."
+      ],
+      "source_name": "Centers for Disease Control and Prevention (CDC)",
+      "source_url": "https://www.cdc.gov/"
+    },
+    {
+      "id": "covid-natural-transmission",
+      "title": "How COVID-19 spreads",
+      "topic": "health",
+      "statement": "COVID-19 spreads mainly when an infected person breathes out droplets and aerosols containing the SARS-CoV-2 virus, which are inhaled by others or land on mucous membranes.",
+      "common_false_claims": [
+        "COVID-19 is not contagious and does not spread between people.",
+        "The coronavirus is not transmitted from person to person."
+      ],
+      "source_name": "World Health Organization (WHO)",
+      "source_url": "https://www.who.int/"
+    }
+  ]
+}

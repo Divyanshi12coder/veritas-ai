@@ -1,0 +1,24 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+pydantic>=2.7,<3
+pydantic-settings>=2.3
+sqlalchemy>=2.0,<2.2
+alembic>=1.13
+psycopg[binary]>=3.1          # PostgreSQL driver (production); SQLite needs nothing extra
+httpx>=0.27
+beautifulsoup4>=4.12
+python-multipart>=0.0.9
+
+# ML / NLP. scikit-learn is pinned because the committed model artifacts are pickles of this exact version.
+scikit-learn==1.8.0
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+pyarrow>=16
+joblib>=1.4
+nltk>=3.9                     # PorterStemmer only (no corpus downloads needed)
+faiss-cpu>=1.8                # vector search for the RAG layer
+
+# Optional extras (not required to run the app):
+#   transformers torch          -> transformer classifier (see docs/MODELS.md)
+#   sentence-transformers       -> semantic embeddings for retrieval (EMBEDDING_BACKEND=sentence-transformers)

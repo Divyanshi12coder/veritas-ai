@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" width="360" height="80" role="img" aria-label="Veritrace">
+  <defs>
+    <linearGradient id="vt-bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7A2231"/>
+      <stop offset="1" stop-color="#4A1220"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(6 8) scale(1)">
+    <rect width="64" height="64" rx="15" fill="url(#vt-bg2)"/>
+    <path d="M16 17 L32 46 L48 17" fill="none" stroke="#F6EFE3" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="46" r="8.6" fill="#4A1220" stroke="#E8DCC8" stroke-width="2.4"/>
+    <path d="M28.2 46.2 L31 49 L36.2 43.2" fill="none" stroke="#F6EFE3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="86" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700" fill="#4A1220" letter-spacing="-0.5">Veritrace</text>
+  <text x="88" y="66" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#9E2A3A" letter-spacing="3.2">MISINFORMATION INTELLIGENCE</text>
+</svg>

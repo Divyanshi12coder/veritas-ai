@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="Veritrace system architecture">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6B1D2A"/></marker>
+    <style>
+      .t{font-family:Georgia,serif;font-size:19px;font-weight:700;fill:#4A1220}
+      .s{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;fill:#2A2326}
+      .k{font-family:'Courier New',monospace;font-size:11px;font-weight:700;fill:#9E2A3A;letter-spacing:2px}
+      .box{fill:#FBF8F3;stroke:#6B1D2A;stroke-width:1.5}
+      .opt{fill:#F6EFE3;stroke:#9E2A3A;stroke-width:1.5;stroke-dasharray:6 4}
+      .ln{stroke:#6B1D2A;stroke-width:1.6;fill:none;marker-end:url(#ar)}
+    </style>
+  </defs>
+  <rect width="1200" height="600" fill="#F6EFE3"/>
+  <text x="40" y="44" class="k">SYSTEM ARCHITECTURE</text>
+
+  <rect x="40" y="80" width="230" height="130" rx="6" class="box"/>
+  <text x="60" y="112" class="t">React + TypeScript</text>
+  <text x="60" y="138" class="s">Vite · Tailwind · Recharts</text>
+  <text x="60" y="158" class="s">Framer Motion · lazy routes</text>
+  <text x="60" y="186" class="s">Analyzer · Dashboard · Models</text>
+
+  <rect x="340" y="60" width="300" height="170" rx="6" class="box"/>
+  <text x="360" y="92" class="t">FastAPI service</text>
+  <text x="360" y="118" class="s">Pydantic validation · CORS</text>
+  <text x="360" y="138" class="s">Rate limit · size limit · SSRF guard</text>
+  <text x="360" y="158" class="s">/api/analyze · /analyze/url · /history</text>
+  <text x="360" y="178" class="s">/statistics · /model-info · /health</text>
+  <text x="360" y="206" class="s">Orchestrator: services/analysis.py</text>
+
+  <rect x="910" y="80" width="250" height="130" rx="6" class="box"/>
+  <text x="930" y="112" class="t">SQLAlchemy + Alembic</text>
+  <text x="930" y="138" class="s">SQLite (dev) / PostgreSQL (prod)</text>
+  <text x="930" y="158" class="s">articles · analyses · claims</text>
+  <text x="930" y="178" class="s">evidence (+ JSON report payload)</text>
+
+  <rect x="40" y="300" width="250" height="130" rx="6" class="box"/>
+  <text x="60" y="332" class="t">NLP pipeline</text>
+  <text x="60" y="358" class="s">clean · tokenise · stem · TF-IDF</text>
+  <text x="60" y="378" class="s">33 stylometric features · sentiment</text>
+  <text x="60" y="398" class="s">readability · NER · keywords</text>
+
+  <rect x="320" y="300" width="250" height="130" rx="6" class="box"/>
+  <text x="340" y="332" class="t">Classifier registry</text>
+  <text x="340" y="358" class="s">LogReg · Linear SVM · RF · GBM</text>
+  <text x="340" y="378" class="s">per-model explainability</text>
+  <text x="340" y="398" class="s">automatic classical fallback</text>
+
+  <rect x="600" y="300" width="250" height="130" rx="6" class="box"/>
+  <text x="620" y="332" class="t">Claims → RAG</text>
+  <text x="620" y="358" class="s">claim extraction · FAISS index</text>
+  <text x="620" y="378" class="s">curated knowledge base</text>
+  <text x="620" y="398" class="s">stance: supported / contradicted</text>
+
+  <rect x="880" y="300" width="280" height="130" rx="6" class="box"/>
+  <text x="900" y="332" class="t">Source credibility</text>
+  <text x="900" y="358" class="s">seed list + structural heuristics</text>
+  <text x="900" y="378" class="s">transparent six-factor scoring</text>
+  <text x="900" y="398" class="s">weights renormalise if missing</text>
+
+  <rect x="320" y="480" width="250" height="90" rx="6" class="opt"/>
+  <text x="340" y="510" class="t">Transformer (optional)</text>
+  <text x="340" y="534" class="s">DistilBERT · lazy-loaded</text>
+  <text x="340" y="552" class="s">sentence-occlusion explanations</text>
+
+  <rect x="600" y="480" width="330" height="90" rx="6" class="opt"/>
+  <text x="620" y="510" class="t">LLM reasoning (optional)</text>
+  <text x="620" y="534" class="s">Anthropic / OpenAI-compatible · structured JSON</text>
+  <text x="620" y="552" class="s">labelled as generated commentary</text>
+
+  <path d="M270 145 H336" class="ln"/>
+  <path d="M640 145 H906" class="ln"/>
+  <path d="M440 230 V296" class="ln"/>
+  <path d="M390 230 L200 296" class="ln"/>
+  <path d="M520 230 L700 296" class="ln"/>
+  <path d="M600 215 L960 296" class="ln"/>
+  <path d="M445 430 V476" class="ln" stroke-dasharray="6 4"/>
+  <path d="M740 430 V476" class="ln" stroke-dasharray="6 4"/>
+</svg>

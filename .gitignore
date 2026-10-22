@@ -1,0 +1,36 @@
+# secrets & local config
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# node
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# local data (the dataset is downloaded on demand; licence is not confirmed)
+data/raw/
+data/*.db
+data/*.db-*
+*.sqlite3
+
+# transformer fine-tuning outputs
+ml/artifacts/transformer/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

@@ -1,0 +1,53 @@
+{
+  "_meta": "Illustrative sample articles written for this project to demo the analysis pipeline. They are not real news, and all publishers, people and places in them are fictional. The *.example domains are reserved and cannot resolve. Results shown for them are produced live by the real models.",
+  "samples": [
+    {
+      "id": "council-budget",
+      "title": "Council approves library budget after public hearing",
+      "author": "Maria Okafor",
+      "source_url": "https://www.regionalledger.example/local/council-library-budget",
+      "description": "Measured local-government report with attributed sources and figures.",
+      "body": "The Marlow City Council voted 5-2 on Tuesday to approve a $4.2 million budget for the public library system, ending a month of debate over staffing and opening hours. The budget, which takes effect on July 1, restores Sunday hours at three branches and funds two additional part-time librarians, according to council documents.\n\nCouncil member Daniel Reyes, who supported the measure, said the library's usage figures justified the increase. \"Visits are up about 12 percent compared with last year,\" Reyes said during the meeting. Council member Ellen Whitaker, who voted against, said the city should wait for next quarter's revenue report before committing to new spending.\n\nA spokesperson for the library, Tomas Lindqvist, told reporters that the system had cut weekend hours in 2022 after a funding shortfall. He said staff would announce the new schedule by the end of the month. The city finance office reported that the budget would be covered by existing reserves and a state grant of roughly $600,000.\n\nResidents who attended the public hearing offered mixed views. Several parents asked for longer evening hours, while two local business owners said they worried about the long-term cost. The council is expected to review the library's performance data again in December."
+    },
+    {
+      "id": "cancer-cure",
+      "title": "SHOCKING: Government Hid The Cure For Cancer And Doctors HATE This Simple Trick!!!",
+      "author": null,
+      "source_url": "http://real-truth-exposed-24.xyz/cancer-cure-they-dont-want-you-to-know",
+      "description": "Classic clickbait health misinformation with conspiratorial framing and miracle-cure claims.",
+      "body": "WAKE UP, PEOPLE! The mainstream media won't tell you this, but a simple kitchen ingredient cures cancer in just 7 days and Big Pharma has been hiding it for decades. This is 100% proof that the system is lying to you!\n\nAn anonymous insider from inside the medical industry says baking soda destroys every tumor and that doctors are forbidden from telling patients. Everyone knows that the cancer industry makes billions from chemotherapy, so of course they would never allow a miracle cure to reach the public. It is a proven fact that thousands have already been cured and the government is covering it up!\n\nThey don't want you to know the truth about what they're hiding. Share before it's deleted! Experts agree this is the biggest medical cover-up in history and sources say a whistleblower will expose everything within days. The deep state and Big Pharma are terrified of you finding out.\n\nDON'T LET THEM silence this story! Share this with everyone you love before it gets deleted. Wake up!!!"
+    },
+    {
+      "id": "5g-virus",
+      "title": "Insiders reveal 5G towers are spreading the coronavirus and officials are covering it up",
+      "author": "Staff Writer",
+      "source_url": "https://patriot-alert-news.example/5g-towers-virus",
+      "description": "Unsupported health claim that conflicts with the knowledge base; weak, anonymous sourcing.",
+      "body": "Sources say the new 5G towers being installed across the region are spreading the coronavirus, and people are saying officials know about it. The new 5G towers are spreading the coronavirus faster in every city where they have been switched on, according to anonymous posts shared widely online.\n\nOne unnamed engineer claims the radiation from 5G towers weakens the immune system and that is why hospitals are filling up. Many people are saying the timing is no coincidence. Local authorities have refused to comment, which many residents see as proof of a cover-up.\n\nResidents are furious and are demanding that every tower be switched off immediately. Several have shared photographs online of workers installing equipment at night. A neighbourhood group says it will keep posting updates because the truth about the towers is being hidden from the public.\n\nThe authorities have not released any measurements of the towers. Until they do, the group says nobody should trust anything officials say about the safety of the network."
+    },
+    {
+      "id": "sea-level-science",
+      "title": "Study suggests sea level rise has accelerated over the past century",
+      "author": "Priya Raman",
+      "source_url": "https://www.scienceweekly.example/earth/sea-level-acceleration",
+      "description": "Careful science reporting with hedged language, attribution and claims that match the knowledge base.",
+      "body": "Global mean sea level has risen over the past century and the rate of rise has increased, according to a new analysis of tide-gauge and satellite records published this week. The researchers, who reviewed data from more than 600 tide gauges, said the acceleration is consistent with ocean warming and melting land ice.\n\n\"The signal is clear in both the long tide-gauge records and the satellite era,\" said Dr. Lena Hoffmann, the study's lead author, though she cautioned that regional differences remain large. The team estimated that the current rate is roughly twice the rate measured in the mid-twentieth century, with an uncertainty range that they described as substantial.\n\nThe findings are in line with earlier assessments. Global surface temperature in 2011-2020 was about 1.1 degrees Celsius higher than in 1850-1900, according to the Intergovernmental Panel on Climate Change, and atmospheric carbon dioxide has risen from about 280 parts per million before the industrial era to more than 420 parts per million.\n\nIndependent scientists who were not involved in the work said the methods appeared sound but noted that tide gauges are unevenly distributed. Further data from upcoming satellite missions is expected to narrow the uncertainty, the authors said."
+    },
+    {
+      "id": "vaccine-explainer",
+      "title": "What large studies say about vaccines and autism",
+      "author": "Dr. Samuel Achebe",
+      "source_url": "https://www.healthbrief.example/explainers/vaccines-autism",
+      "description": "Explainer that discusses a false claim in order to rebut it; tests negation handling in retrieval.",
+      "body": "Few health claims have spread as widely as the idea that vaccines cause autism. Researchers have examined it in studies involving millions of children across several countries, and they have not found a causal link. The 1998 paper that first suggested a connection was retracted after investigators found serious flaws and ethical violations.\n\nVaccines do not cause autism, according to reviews by major public health agencies. Autism is typically recognised in early childhood, around the same age at which several routine vaccines are given, which helps explain why some parents notice a coincidence in timing. Correlation in timing is not evidence of cause.\n\nThe World Health Organization characterised COVID-19 as a pandemic on 11 March 2020, and since then vaccine safety monitoring has expanded considerably, with regulators in many countries publishing regular safety updates. Doctors say that parents with questions should speak with their paediatrician, who can explain the benefits and known risks of each vaccine.\n\nMost children experience only mild side effects such as a sore arm or a low fever. Serious reactions are rare and are tracked by safety surveillance systems."
+    },
+    {
+      "id": "budget-opinion",
+      "title": "OPINION: This Budget Is A Betrayal Of Every Working Family In America",
+      "author": "Rick Danvers",
+      "source_url": "https://www.dailyreview-opinion.example/opinion/budget-betrayal",
+      "description": "Emotive, partisan opinion piece with few verifiable claims: shows how style and substance differ.",
+      "body": "I am furious, and every honest person in this country should be too. This budget is a disgrace, a shameful betrayal of the families who keep this nation running. Politicians in the capital have once again shown that they will never listen to ordinary people, and they will always protect the powerful.\n\nWe were promised relief. Instead we got a pathetic package that does nothing for the people who need it most. It is absolutely outrageous that those who wrote this bill expect us to be grateful. Everyone knows that working families are the ones who pay, and nobody in the capital seems to care.\n\nI believe we are at a turning point. Either we demand better from the people we elect, or we accept a future in which the voices of workers are ignored entirely. I think the choice is obvious, and I feel certain that voters will remember this betrayal at the ballot box.\n\nIt is time to stand up, speak out and make our anger heard. We deserve leaders who fight for us, not leaders who sell us out."
+    }
+  ]
+}

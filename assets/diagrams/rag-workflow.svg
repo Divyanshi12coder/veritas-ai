@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Veritrace retrieval-augmented fact-check workflow">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6B1D2A"/></marker>
+    <style>
+      .t{font-family:Georgia,serif;font-size:17px;font-weight:700;fill:#4A1220}
+      .s{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12.5px;fill:#2A2326}
+      .k{font-family:'Courier New',monospace;font-size:11px;font-weight:700;fill:#9E2A3A;letter-spacing:2px}
+      .box{fill:#FBF8F3;stroke:#6B1D2A;stroke-width:1.5}
+      .gen{fill:#F6EFE3;stroke:#9E2A3A;stroke-width:1.5;stroke-dasharray:6 4}
+      .ln{stroke:#6B1D2A;stroke-width:1.6;fill:none;marker-end:url(#ar)}
+    </style>
+  </defs>
+  <rect width="1200" height="380" fill="#F6EFE3"/>
+  <text x="40" y="40" class="k">RAG: CLAIM → EVIDENCE → ASSESSMENT</text>
+
+  <rect x="30" y="70" width="170" height="130" rx="6" class="box"/>
+  <text x="46" y="98" class="t">Article</text>
+  <text x="46" y="122" class="s">Score each sentence for</text><text x="46" y="140" class="s">check-worthiness; keep</text><text x="46" y="158" class="s">the top claims.</text>
+
+  <rect x="235" y="70" width="170" height="130" rx="6" class="box"/>
+  <text x="251" y="98" class="t">Embed</text>
+  <text x="251" y="122" class="s">TF-IDF vectors (default)</text><text x="251" y="140" class="s">or sentence-transformers</text><text x="251" y="158" class="s">(optional).</text>
+
+  <rect x="440" y="70" width="190" height="130" rx="6" class="box"/>
+  <text x="456" y="98" class="t">FAISS search</text>
+  <text x="456" y="122" class="s">Curated KB: each entry</text><text x="456" y="140" class="s">indexed as a statement +</text><text x="456" y="158" class="s">known false-claim phrasings.</text>
+
+  <rect x="665" y="70" width="190" height="130" rx="6" class="box"/>
+  <text x="681" y="98" class="t">Stance rules</text>
+  <text x="681" y="122" class="s">Similarity thresholds +</text><text x="681" y="140" class="s">negation polarity decide:</text><text x="681" y="158" class="s">supported · contradicted ·</text><text x="681" y="176" class="s">insufficient · unverified</text>
+
+  <rect x="890" y="70" width="280" height="130" rx="6" class="box"/>
+  <text x="906" y="98" class="t">Evidence-backed report</text>
+  <text x="906" y="122" class="s">Claim → retrieved entry → assessment,</text><text x="906" y="140" class="s">with source organisation and link.</text><text x="906" y="158" class="s">Shown apart from the model prediction.</text>
+
+  <path d="M200 135 H231" class="ln"/><path d="M405 135 H436" class="ln"/><path d="M630 135 H661" class="ln"/><path d="M855 135 H886" class="ln"/>
+
+  <rect x="665" y="250" width="505" height="90" rx="6" class="gen"/>
+  <text x="681" y="278" class="t">Optional LLM commentary (clearly labelled as generated)</text>
+  <text x="681" y="302" class="s">Receives article + retrieved evidence and returns structured JSON.</text>
+  <text x="681" y="320" class="s">May only call a claim supported/contradicted if retrieved evidence says so.</text>
+  <path d="M760 200 V246" class="ln" stroke-dasharray="6 4"/>
+  <text x="40" y="300" class="s">Out-of-scope claims return "unverified", never a guess.</text>
+  <text x="40" y="320" class="s">The knowledge base is small and auditable: data/kb/knowledge_base.json.</text>
+</svg>
